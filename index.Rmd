@@ -1,8 +1,7 @@
 ---
-title: '<img src="img/hacktoberfest2021.png" alt="Logo do evento Hacktoberfest" style="float:right;height:300px;">'
+title: '<img src="img/hacktoberfest2021.png" alt="Logo do evento Hacktoberfest" style="height:300px;">'
 author: 
-  - "Curso-R"
-  - "R-Ladies São Paulo"
+  - "Curso-R & R-Ladies São Paulo"
 date: "Atualizado em `r format(Sys.Date(), format='%d/%m/%Y')`"
 output:
   xaringan::moon_reader:
