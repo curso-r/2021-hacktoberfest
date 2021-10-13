@@ -17,27 +17,26 @@ output:
 
 
 ```{r metathis, echo=FALSE}
-# library(metathis)
-# meta() %>%
-#   meta_name("github-repo" = "R-Ladies-Sao-Paulo/2020-hacktoberfest") %>% 
-#   meta_social(
-#     title = "Hacktoberfest 2020 + R-Ladies São Paulo",
-#     description = paste(
-#       "Apresentação sobre ",
-#       "como participar da Hacktoberfest 2020."
-#     ),
-#     url = "https://r-ladies-sao-paulo.github.io/2020-hacktoberfest/slides/hacktoberfest/",
-#     image = "https://r-ladies-sao-paulo.github.io/2020-hacktoberfest/slides/hacktoberfest/img/share-card.png",
-#     image_alt = paste(
-#       "Primeiro slide da apresentação sobre ",
-#       "como participar da Hacktoberfest 2020.",
-#       "Apresentado por Angélica Custódio."
-#     ),
-#     og_type = "website",
-#     og_author = c("Beatriz Milz", "Angélica Custódio"),
-#     twitter_card_type = "summary_large_image",
-#     twitter_creator = c("@beamilz", "@angcustodio")
-#   )
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "curso-r/2021-hacktoberfest") %>%
+  meta_social(
+    title = "Hacktoberfest 2021",
+    description = paste(
+      "Apresentação sobre ",
+      "como participar da Hacktoberfest 2021."
+    ),
+    url = "https://curso-r.github.io/2021-hacktoberfest/",
+    image = "https://curso-r.github.io/2021-hacktoberfest/img/share-card.png",
+    image_alt = paste(
+      "Primeiro slide da apresentação sobre ",
+      "como participar da Hacktoberfest 2021."
+    ),
+    og_type = "website",
+    og_author = c("Beatriz Milz", "Curso-R"),
+    twitter_card_type = "summary_large_image",
+    twitter_creator = c("@beamilz", "@curso_r")
+  )
 ```
 
 ```{r eval=FALSE, include=FALSE}
