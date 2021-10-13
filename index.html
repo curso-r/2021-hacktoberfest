@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>index.knit</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Curso-R" />
+    <meta name="author" content="R-Ladies São Paulo" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# <img src="img/hacktoberfest2021.png" alt="Logo do evento Hacktoberfest" style="float:right;height:300px;">
+### Curso-R
+### R-Ladies São Paulo
+### Atualizado em 13/10/2021
+
+---
+
+
+
+
+
+
+
+
+
+
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 110px;
+height: 128px;
+z-index: 0;
+background-image: url(img/Icon.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:1em;right:1em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('a')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = 'https://r-ladies-sao-paulo.github.io/2020-hacktoberfest/'
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+## Apresentação derivada de: 
+
+&lt;img src="https://r-ladies-sao-paulo.github.io/2020-hacktoberfest/img/arte_meetup.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+https://r-ladies-sao-paulo.github.io/2020-hacktoberfest/
+
+---
+
+## O que é a **Hacktoberfest**?
+
+- É uma celebração do __open source__ que ocorre em outubro.
+
+- A **Hacktoberfest** é aberta para todes!
+
+- Pessoas fazem contribuições em projetos abertos.
+
+- Caso faça contribuições válidas (de acordo com as regras), pode ganhar uma camiseta e adesivos 👕 OU pode escolher a opção de plantar uma árvore.
+
+
+
+---
+
+## Regras para receber o prêmio
+
+- Necessário realizar 4 **contribuições válidas**, através de __Pull Requests__ no [GitHub](https://github.com).
+
+&gt; Pull Requests = PR = a forma que enviamos contribuições nos repositórios :)
+
+- Para ser uma contribuição válida:
+
+  - Precisa ser submetida durante o mês de outubro
+  
+  - Para repositórios __com ou sem__ o tópico `Hacktoberfest`: A pessoa mantenedora do repositório precisa adicionar uma label/rótulo de `hacktoberfest-accepted` no Pull Request
+  
+  - Para repositórios __com__ o tópico `Hacktoberfest`: PR é aprovado ou merged
+
+Saiba mais em: https://hacktoberfest.digitalocean.com/resources/participation
+
+
+
+
+---
+class: middle
+
+## Repositórios podem ter tópicos. 
+
+Exemplo:
+
+&lt;img src="img/exemplo-repo-topicos.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+class: middle
+
+## Exemplos de repositórios
+
+.pull-left[
+### __Com__ tópico Hacktoberfest
+
+&lt;img src="img/exemplo-com-topico-hacktoberfest.PNG" width="70%" style="display: block; margin: auto;" /&gt;
+
+[carpentries/glosario](https://github.com/carpentries/glosario)
+]
+
+.pull-right[
+### __Sem__ tópico Hacktoberfest
+
+&lt;img src="img/exemplo-sem-topico-hacktoberfest.PNG" width="80%" style="display: block; margin: auto;" /&gt;
+
+[R-Ladies-Sao-Paulo/xaringan](https://github.com/R-Ladies-Sao-Paulo/xaringan)
+]
+
+
+---
+class: middle
+
+## Pull Requests (PRs) podem ter labels
+
+Exemplo de Pull Request com label/rótulo de `hacktoberfest-accepted`:
+
+&lt;img src="img/exemplo-PR-label-hacktoberfest-accepted.PNG" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+---
+## Como participar?
+
+- No site da __Hacktoberfest__, [faça o login com o GitHub e/ou GitLab](https://hacktoberfest.digitalocean.com/register)
+
+
+&lt;img src="img/login.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Como participar?
+
+.pull-left[
+
+
+- Dê permissão utilizando sua conta do GitHub
+]
+
+.pull-right[
+
+&lt;img src="img/con_github.png" width="50%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+## Como participar?
+
+- [Nesta página](https://hacktoberfest.digitalocean.com/profile) ficarão listados as suas contribuções, com uma legenda sobre o status da sua contribuição. Enquanto não houver contribuições válidas, a página ficará assim:
+
+&lt;img src="img/profile-sem-controbuicoes.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+## Contribuições
+
+&lt;img src="img/profile_1_pr.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Legenda
+
+-  __In progress__: Seu PR foi aceito por uma pessoa mantenedora e atualmente está dentro do período de revisão, que dura quatorze dias. 
+
+-  __Completed__: Parabéns! Seu PR passou no período de revisão e conta para a conclusão do desafio da Hacktoberfest!
+
+---
+
+## Repositórios para contribuir
+
+- Da Curso-R: 
+
+  - [munifacil](https://github.com/curso-r/munifacil)
+  - [Livro Ciência de Dados em R](https://github.com/curso-r/livro-material) - [Veja o livro aqui!](https://livro.curso-r.com/)
+  - [auth0](https://github.com/curso-r/auth0)
+  - [torchaudio](https://github.com/curso-r/torchaudio)
+  
+- Outros repositórios:
+
+  - [Materiais de estudo de R](https://github.com/beatrizmilz/materiais_estudo_R) - [Veja a página aqui](https://materiais-estudo-r.netlify.app/)
+  - [Capítulos da R-Ladies no Brasil](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil) - [Arquivo `data-raw/capitulos_redes.R`](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/blob/master/data-raw/capitulos_redes.R)
+  - [microdatasus](https://github.com/rfsaldanha/microdatasus)
+  - [Base dos Dados](https://github.com/basedosdados/mais/#usando-em-r)
+  
+  
+
+
+
+---
+class: inverse, center, middle
+
+## Bom evento! 👩‍💻
+
+
+Caso tenha dúvidas, veja as [perguntas frequentes](https://hacktoberfest.digitalocean.com/faq)!
+
+
+Apresentação feita com &lt;i class="fab fa-r-project"&gt;&lt;/i&gt; e os pacotes [xaringan](https://github.com/yihui/xaringan) + [xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/) e [xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra/), por:
+
+Agradecimentos:  Beatriz Milz  &lt;a href='https://twitter.com/BeaMilz'  target="_blank"&gt;&lt;i class="fab fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt; , Angélica Custódio &lt;a href='https://twitter.com/angcustodio'  target="_blank"&gt;&lt;i class="fab fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;, Jean Prado
+&lt;a href='https://twitter.com/jeangprado'  target="_blank"&gt;&lt;i class="fab fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;
+
+
+  
+&lt;!-- inicio font awesome --&gt;
+&lt;script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;!-- final font awesome --&gt;
+
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"&gt;
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

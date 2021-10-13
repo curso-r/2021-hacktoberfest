@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+p, li {
+	font-family: 'Inter', sans-serif;
+	color: #5b6987;
+	font-size: 25px;
+}
+
+b{
+  color: #9c4668;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Inter', sans-serif;
+}
+
+.inverse p{
+  color: #FFFFFF;
+}
+
+.inverse a{
+  color: #072540;
+  font-weight: bold;
+}
+
+
+
