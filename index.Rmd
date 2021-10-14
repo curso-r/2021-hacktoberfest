@@ -234,7 +234,7 @@ knitr::include_graphics("img/profile_1_pr.png")
   - [Pacotes reservatoriosBR](https://github.com/brunomioto/reservatoriosBR)
   - [Materiais de estudo de R](https://github.com/beatrizmilz/materiais_estudo_R) - [Veja a página aqui](https://materiais-estudo-r.netlify.app/)
   - [Capítulos da R-Ladies no Brasil](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil) - [Arquivo `data-raw/capitulos_redes.R`](https://github.com/R-Ladies-Sao-Paulo/RLadies-Brasil/blob/master/data-raw/capitulos_redes.R)
-  - [microdatasus](https://github.com/rfsaldanha/microdatasus)
+  - [microdatasus](https://github.com/rfsaldanha/microdatasus) - [Veja esse post no discourse](https://discourse.curso-r.com/t/chamada-para-contribuicao-pacote-microdatasus/1473)
   - [Base dos Dados](https://github.com/basedosdados/mais/#usando-em-r)
   
   
